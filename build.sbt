@@ -4,12 +4,12 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "Operon Scala-starter-project",
-    version := "0.9.1",
+    version := "0.9.4",
 
     scalaVersion := scala3Version,
 
     libraryDependencies ++= Seq(
 		  "com.novocode" % "junit-interface" % "0.11" % "test",
-		  "io.operon" % "operon-runner" % "0.9.1-RELEASE"
+		  "io.operon" % "operon-runner" % "0.9.4-RELEASE"
 	  )
   )
